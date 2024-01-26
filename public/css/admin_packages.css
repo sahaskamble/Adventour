@@ -1,0 +1,70 @@
+.container_for_ques{
+  width: 90%;
+  margin: auto;
+  margin-top: 6rem;
+  height: auto;
+}
+
+.section_for_cnt{
+  padding: 1rem; 
+  display: grid;
+}
+
+form{
+  width: 95%;
+}
+
+label, input, select{
+  height: 40px;
+}
+
+label, input, textarea, select{
+  font-size: 20px;
+  width: 100%;
+  /* padding: 4px 1rem; */
+}
+
+input, textarea, select{
+  padding: 4px 1rem;
+}
+
+.section_for_cnt, .inner_cnt{
+  padding: 2rem;
+}
+
+.inner_cnt{
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr;
+  /* align-items: center; */
+  width: 95%;
+  margin: auto;
+}
+
+.inner_cnts{
+  font-size: 25px;
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+/* .section_for_cnt select{ */
+/*   width: 50%; */
+/* } */
+/**/
+
+.btn{
+  width: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn_in{
+  display: flex;
+  justify-content: center;
+  /* padding: 100px; */
+}
+
+
